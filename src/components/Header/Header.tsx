@@ -15,7 +15,7 @@ function Header() {
                 to={redirectText[i]}
                 className={({ isActive }) => {
                   const isActiveClass = isActive
-                    ? "after:absolute after:w-full after:h-1 after:bg-[#b31933]"
+                    ? "after:absolute after:w-full after:h-1 after:bg-[#C8102E]"
                     : "";
 
                   return `relative hover:cursor-pointer ${isActiveClass}`;
